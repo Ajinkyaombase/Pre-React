@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 // import "./App.css";
-import "./style.scss";
+// import "./style.scss";
 import Person from "./Person";
 import Course from "./Course";
 import ClassComponentConversion from "./ClassComponentConversion";
@@ -24,13 +24,15 @@ import DemoComponent from "./DemoComponent";
 import Reconciliation from "./Reconciliation";
 import Sassdemo from "./Sassdemo";
 import RadiumDemo from "./RadiumDemo";
+import TestComponent from "./TestComponent";
 
 function App() {
   return (
     <div className="App">
       <h1>From app</h1>
+      <TestComponent name={"Ajinkya"} />
       {/* <RadiumDemo /> */}
-      <Sassdemo />
+      {/* <Sassdemo /> */}
       {/* <Person/>
       <Course/> */}
       {/* <Person /> */}
